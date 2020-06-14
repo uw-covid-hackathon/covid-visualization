@@ -1,50 +1,43 @@
-# Project - X
+# UW COVD-19 Hackathon: Government Policies and Effect on People 
 
-**Best Interactive Visualization/Dashboard**
+## About
+The government across the world has implemented several different polices to try and combat COVID. In this project we allow the user to interact and explore COVID related data on number of cases/deaths and policies governments have focused on the counteract this pandemic. We also allow the user to interact with how people have responded to COVID in the United States. 
 
-Criteria 
-- [ ] Simplicity and ease of navigation 
-- [ ] Choice of encodings and colors
-- [ ] Ease of understanding
-- [ ] Impact and take-aways
-- [ ] Documentation
+## Report / Analysis
+Our report and findings are being presented as a [website](https://uw-covid-hackathon.github.io/covid-visualization/). This website also contains links to external visualizations created using other tools. 
 
-Hackathon info at [UW-COVID-19-Hackathon](https://data-science-hackathon.github.io/COVID-19-Hackathon/)
+*In case the link cannot be opened, the `index.html` page allows the user to view the report locally* 
 
-Using data from 
+### Data Sources
+
 - [Oxford Covid-19 Government Response Tracker (OxCGRT)](https://github.com/OxCGRT/covid-policy-tracker)
+
 - [Coronavirus (Covid-19) Data in the United States](https://github.com/nytimes/covid-19-data)
 
-Basic Project Outline
-1. **World View**
-2. **Country View (USA)**
-3. **County/State View**
+## Tools / Technologies Used
+* Python 
+* Plotly
+* Tableau
 
-Keeping visualizations and flow as as interactive as possible... 
-## 1. World View
-Visualizations based on COVID tracking from all over the world.
+## Hackathon Information
 
-*This could be a Dashboard, can take some kind of inspiration from this: [JH covid tracker ](https://coronavirus.jhu.edu/map.html) 
-- World Map showing latest data of:
-	- covid cases per country
-	- covid deaths per country
-	- government response index per country
-- Visualization for Severity of covid cases over a user-given time-frame.
-- Rate of change in covid cases per country based on doubling factor.
+Hackathon info at: [UW-COVID-19-Hackathon](https://data-science-hackathon.github.io/COVID-19-Hackathon/)
 
-clicking on a country or using a magnifying icon leads to the next section...
+Category: **Best Interactive Visualization/Dashboard**
 
-## 2. Country View 
+Category Criteria: 
+- [ ] Simplicity and ease of navigation
 
-- Current covid cases, deaths, and government policies, with implemented indicators, will have an add button to include more countries for comparison of stats. 
+- [ ] Choice of encodings and colors
 
-Kinda like [versus.com](https://versus.com/en) maybe?  User can see which country is better off with the response index, we could even have a radar wheel chart regarding the extent to which a policy was implemented. Check out this example [comparing phones.](https://versus.com/en/apple-iphone-11-pro-vs-oneplus-8-pro-vs-samsung-galaxy-s10-vs-sony-xperia-1-ii-5g) (might be ambitious but we could implement a portion of it).
+- [ ] Ease of understanding
 
-- A playground for user to experiment with Different indicators for a country by changing the importance (weight) given to it to assess the rate of change in covid cases.
+- [ ] Impact and take-aways
 
-For this we'll need to find out relationship or significance of indicators w.r.t. rate of covid cases. 
+- [ ] Documentation
 
-## 3. County/State View
-
-- Covid deaths vs actual number of deaths in county/state.
-- Covid cases per state
+## Authors
+* Apoorv Sharma
+* Sai Muktevi
+* Juhi Choubey
+* Sandeep Tiwari
